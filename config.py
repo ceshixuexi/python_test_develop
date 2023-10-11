@@ -20,4 +20,5 @@ def init_log_config():
     fh.setFormatter(formatter)
     logger.addHandler(sh)
     logger.addHandler(fh)
+    print("123")
 
